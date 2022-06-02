@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PMS"
+        android:layout_marginTop="70dp"
+        android:textSize="25sp"
+        android:id="@+id/txtpms"
+        android:layout_centerHorizontal="true"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/txtpms"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profile"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtpName"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:layout_below="@+id/profile_image"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtpMobile"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:layout_below="@+id/txtpName"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtpEmail"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:layout_below="@+id/txtpMobile"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtpPassword"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:inputType="textPassword"
+        android:layout_below="@+id/txtpEmail"/>
+
+   <!-- <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtRConfirmPassword"
+        android:layout_marginTop="15dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/edtRPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Register"
+        android:layout_below="@+id/edtRConfirmPassword"
+        android:id="@+id/btnRegister"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/btnRegister">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/txtLogin"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>-->
+</RelativeLayout>
